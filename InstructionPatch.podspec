@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'InstructionPatch'
   s.version          = '0.0.1'
-  s.summary          = 'A short description of InstructionPatch.'
+  s.summary          = 'InstructionPatch, iOS hotfix framework'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  This is an iOS hotfix framework that doesn't rely on any other language engine. It parses json files and uses the runtime to perform hot fixes. However, it also has many limitations.
                        DESC
 
   s.homepage         = 'https://github.com/intMax/InstructionPatch'
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/intMax/InstructionPatch.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'InstructionPatch/Classes/**/*'
   
