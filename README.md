@@ -38,7 +38,7 @@ pod 'InstructionPatch'
 
 ## Author
 
-shouye
+intMax
 
 ## License
 

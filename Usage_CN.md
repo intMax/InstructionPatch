@@ -20,7 +20,7 @@
 
 现在需要在viewDidLoad中打印```returnClassMethod```中返回的字符串只需要以下指令：
 
-```json
+```
 {
   // 所有修复指令
   "instructions": [
@@ -101,7 +101,7 @@ block在代码的使用大部分被分为下面两个情况：
 
 现在需要在```executeReturnBlock```中执行方法参数```block```，指令如下：
 
-```json
+```
 {
   "instructions": [
     {
@@ -187,7 +187,7 @@ block在代码的使用大部分被分为下面两个情况：
 
 现在需要在```viewDidLoad```中发出```IPMockRequest```的请求，指令如下：
 
-```json
+```
 {
   "instructions": [
     {
@@ -343,7 +343,7 @@ while(whileCondition) {
 
 修复指令如下：
 
-```json
+```
 {
   "instructions": [
     {
