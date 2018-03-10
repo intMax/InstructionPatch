@@ -1,0 +1,51 @@
+{
+    "instructions": [
+        {
+            "cls": "IPViewController",
+            "methodList": [
+                {
+                    "method": "instanceMethodArg1:arg2:",
+                    "messages": [
+                        {
+                            "receiver": "self",
+                            "message": "logWithString:",
+                            "args": [
+                                {
+                                    "valueKey":"ARG_0"
+                                }
+                            ]
+                        },
+                        {
+                            "receiver": "self",
+                            "message": "logWithInteger:",
+                            "args": [
+                                {
+                                    "valueKey":"ARG_1"
+                                }
+                            ]
+                        },
+                        {
+                            "receiver": "self",
+                            "message": "logWithString:",
+                            "args":[
+                               {
+                                   "stringValue":"value from InstanceMethod.json"
+                               } 
+                            ]
+                        },
+                        {
+                            "receiver": "self",
+                            "message": "logWithInteger:",
+                            "args":[
+                               {
+                                   "digitalType":"NSInteger",
+                                   "digital":888
+                               } 
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

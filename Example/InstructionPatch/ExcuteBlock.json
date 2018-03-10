@@ -1,0 +1,64 @@
+{
+    "instructions": [
+        {
+            "cls": "IPViewController",
+            "methodList": [
+                {
+                    "method": "executeObjectParameterBlock:",
+                    "messages": [
+                        {
+                            "isBlock": true,
+                            "blockKey": "ARG_0",
+                            "args": [
+                                {
+                                    "stringValue": "value from InstanceMethod.json"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "method": "executeBasicTypeParameterBlock:",
+                    "messages": [
+                        {
+                            "isBlock": true,
+                            "blockKey": "ARG_0",
+                            "args": [
+                                {
+                                    "digital":888,
+                                    "digitalType":"int"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "method": "executeReturnValueBlock:",
+                    "messages": [
+                        {
+                            "isBlock": true,
+                            "blockKey": "ARG_0",
+                            "returnType": "NSString",
+                            "returnObj": "blockReturnValue",
+                            "args": [
+                                {
+                                    "digital":666,
+                                    "digitalType":"int"
+                                }
+                            ]
+                        },
+                        {
+                            "receiver":"self",
+                            "message":"logWithString:",
+                            "args":[
+                                {
+                                    "valueKey":"blockReturnValue"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "instructions": [
+        {
+            "cls": "IPViewController",
+            "methodList": [
+                {
+                    "method": "buildBlock",
+                    "messages": [
+                        {
+                            "receiver": "self",
+                            "message": "block1:block2:",
+                            "args": [
+                                {
+                                    "type":"block",
+                                    "blockParameterPrefix":"prefix1",
+                                    "blockParameterTypes":[
+                                        "NSString"
+                                    ],
+                                    "innerMessage":[
+                                        {
+                                            "receiver":"self",
+                                            "message":"logWithString:",
+                                            "args":[
+                                                {
+                                                    "valueKey":"BLOCK_ARG_0",
+                                                    "blockParameterPrefix":"prefix1"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type":"block",
+                                    "blockParameterPrefix":"prefix2",
+                                    "blockParameterTypes":[
+                                        "NSInteger"
+                                    ],
+                                    "innerMessage":[
+                                        {
+                                            "receiver":"self",
+                                            "message":"logWithInteger:",
+                                            "args":[
+                                                {
+                                                    "valueKey":"BLOCK_ARG_0",
+                                                    "blockParameterPrefix":"prefix2"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

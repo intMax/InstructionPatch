@@ -1,0 +1,19 @@
+PODS:
+  - InstructionPatch (0.1.0)
+  - JSONModel (1.7.0)
+
+DEPENDENCIES:
+  - InstructionPatch (from `../`)
+  - JSONModel
+
+EXTERNAL SOURCES:
+  InstructionPatch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  InstructionPatch: 95aa249f34524b3f5a8e824a1ed9a2ee0a5ffda7
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+
+PODFILE CHECKSUM: f796e300f8c2293880c5a5ed068693aa28ebceb2
+
+COCOAPODS: 1.2.0

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'InstructionPatch_Example' do
+  pod 'InstructionPatch', :path => '../'
+  pod 'JSONModel'
+  target 'InstructionPatch_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
